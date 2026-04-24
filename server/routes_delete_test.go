@@ -9,9 +9,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/manifest"
-	"github.com/ollama/ollama/types/model"
+	"github.com/yurivict/ollama/api"
+	"github.com/yurivict/ollama/manifest"
+	"github.com/yurivict/ollama/types/model"
 )
 
 func TestDelete(t *testing.T) {

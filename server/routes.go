@@ -31,29 +31,29 @@ import (
 	"golang.org/x/image/webp"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/auth"
-	"github.com/ollama/ollama/discover"
-	"github.com/ollama/ollama/envconfig"
-	"github.com/ollama/ollama/format"
-	"github.com/ollama/ollama/fs/ggml"
-	internalcloud "github.com/ollama/ollama/internal/cloud"
-	"github.com/ollama/ollama/llm"
-	"github.com/ollama/ollama/logutil"
-	"github.com/ollama/ollama/manifest"
-	"github.com/ollama/ollama/middleware"
-	"github.com/ollama/ollama/model/parsers"
-	"github.com/ollama/ollama/model/renderers"
-	"github.com/ollama/ollama/server/internal/client/ollama"
-	"github.com/ollama/ollama/server/internal/registry"
-	"github.com/ollama/ollama/template"
-	"github.com/ollama/ollama/thinking"
-	"github.com/ollama/ollama/tools"
-	"github.com/ollama/ollama/types/errtypes"
-	"github.com/ollama/ollama/types/model"
-	"github.com/ollama/ollama/version"
-	imagegenmanifest "github.com/ollama/ollama/x/imagegen/manifest"
-	xserver "github.com/ollama/ollama/x/server"
+	"github.com/yurivict/ollama/api"
+	"github.com/yurivict/ollama/auth"
+	"github.com/yurivict/ollama/discover"
+	"github.com/yurivict/ollama/envconfig"
+	"github.com/yurivict/ollama/format"
+	"github.com/yurivict/ollama/fs/ggml"
+	internalcloud "github.com/yurivict/ollama/internal/cloud"
+	"github.com/yurivict/ollama/llm"
+	"github.com/yurivict/ollama/logutil"
+	"github.com/yurivict/ollama/manifest"
+	"github.com/yurivict/ollama/middleware"
+	"github.com/yurivict/ollama/model/parsers"
+	"github.com/yurivict/ollama/model/renderers"
+	"github.com/yurivict/ollama/server/internal/client/ollama"
+	"github.com/yurivict/ollama/server/internal/registry"
+	"github.com/yurivict/ollama/template"
+	"github.com/yurivict/ollama/thinking"
+	"github.com/yurivict/ollama/tools"
+	"github.com/yurivict/ollama/types/errtypes"
+	"github.com/yurivict/ollama/types/model"
+	"github.com/yurivict/ollama/version"
+	imagegenmanifest "github.com/yurivict/ollama/x/imagegen/manifest"
+	xserver "github.com/yurivict/ollama/x/server"
 )
 
 const signinURLStr = "https://ollama.com/connect?name=%s&key=%s"
@@ -2408,7 +2408,7 @@ func (s *Server) ChatHandler(c *gin.Context) {
 			// current approach uses the transition from parsed thinking content to
 			// parsed non-thinking content as the signal to turn constraining on
 
-			// TODO(parthsareen): temporary fix for https://github.com/ollama/ollama/issues/15260.
+			// TODO(parthsareen): temporary fix for https://github.com/yurivict/ollama/issues/15260.
 			// To revisit for other models and have a consistent pattern across models through parsers.
 			forceImmediate := m.Config.Parser == "gemma4" && req.Think != nil && !req.Think.Bool()
 			if req.Format != nil && structuredOutputsState == structuredOutputsState_None && !forceImmediate && ((builtinParser != nil || thinkingState != nil) && slices.Contains(m.Capabilities(), model.CapabilityThinking)) {

@@ -13,7 +13,7 @@
 #
 VOL_NAME=${VOL_NAME:-"Ollama"}
 export VERSION=${VERSION:-$(git describe --tags --first-parent --abbrev=7 --long --dirty --always | sed -e "s/^v//g")}
-export GOFLAGS="'-ldflags=-w -s \"-X=github.com/ollama/ollama/version.Version=${VERSION#v}\" \"-X=github.com/ollama/ollama/server.mode=release\"'"
+export GOFLAGS="'-ldflags=-w -s \"-X=github.com/yurivict/ollama/version.Version=${VERSION#v}\" \"-X=github.com/yurivict/ollama/server.mode=release\"'"
 export CGO_CFLAGS="-O3 -mmacosx-version-min=14.0"
 export CGO_CXXFLAGS="-O3 -mmacosx-version-min=14.0"
 export CGO_LDFLAGS="-mmacosx-version-min=14.0"
@@ -173,8 +173,8 @@ _build_macapp() {
     touch dist/Ollama.app
 
     go clean -cache
-    GOARCH=amd64 CGO_ENABLED=1 GOOS=darwin go build -o dist/darwin-app-amd64 -ldflags="-s -w -X=github.com/ollama/ollama/app/version.Version=${VERSION}" ./app/cmd/app
-    GOARCH=arm64 CGO_ENABLED=1 GOOS=darwin go build -o dist/darwin-app-arm64 -ldflags="-s -w -X=github.com/ollama/ollama/app/version.Version=${VERSION}" ./app/cmd/app
+    GOARCH=amd64 CGO_ENABLED=1 GOOS=darwin go build -o dist/darwin-app-amd64 -ldflags="-s -w -X=github.com/yurivict/ollama/app/version.Version=${VERSION}" ./app/cmd/app
+    GOARCH=arm64 CGO_ENABLED=1 GOOS=darwin go build -o dist/darwin-app-arm64 -ldflags="-s -w -X=github.com/yurivict/ollama/app/version.Version=${VERSION}" ./app/cmd/app
     mkdir -p dist/Ollama.app/Contents/MacOS
     lipo -create -output dist/Ollama.app/Contents/MacOS/Ollama dist/darwin-app-amd64 dist/darwin-app-arm64
     rm -f dist/darwin-app-amd64 dist/darwin-app-arm64

@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://ollama.com">
-    <img src="https://github.com/ollama/ollama/assets/3325447/0d0b44e2-8f4a-4e99-9b52-a5c1c741c8f7" alt="ollama" width="200"/>
+    <img src="https://github.com/yurivict/ollama/assets/3325447/0d0b44e2-8f4a-4e99-9b52-a5c1c741c8f7" alt="ollama" width="200"/>
   </a>
 </p>
 
@@ -36,12 +36,12 @@ curl -fsSL https://ollama.com/install.sh | sh
 
 ### Docker
 
-The official [Ollama Docker image](https://hub.docker.com/r/ollama/ollama) `ollama/ollama` is available on Docker Hub.
+The official [Ollama Docker image](https://hub.docker.com/r/yurivict/ollama) `yurivict/ollama` is available on Docker Hub.
 
 ### Libraries
 
-- [ollama-python](https://github.com/ollama/ollama-python)
-- [ollama-js](https://github.com/ollama/ollama-js)
+- [ollama-python](https://github.com/yurivict/ollama-python)
+- [ollama-js](https://github.com/yurivict/ollama-js)
 
 ### Community
 
@@ -148,7 +148,7 @@ console.log(response.message.content);
 - [REST API reference](https://docs.ollama.com/api)
 - [Importing models](https://docs.ollama.com/import)
 - [Modelfile reference](https://docs.ollama.com/modelfile)
-- [Building from source](https://github.com/ollama/ollama/blob/main/docs/development.md)
+- [Building from source](https://github.com/yurivict/ollama/blob/main/docs/development.md)
 
 ## Community Integrations
 

@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ollama/ollama/cmd/internal/fileutil"
+	"github.com/yurivict/ollama/cmd/internal/fileutil"
 )
 
 func TestDroidIntegration(t *testing.T) {

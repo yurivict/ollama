@@ -15,9 +15,9 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/app/store"
-	"github.com/ollama/ollama/app/updater"
+	"github.com/yurivict/ollama/api"
+	"github.com/yurivict/ollama/app/store"
+	"github.com/yurivict/ollama/app/updater"
 )
 
 func TestHandlePostApiSettings(t *testing.T) {

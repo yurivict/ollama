@@ -1,8 +1,8 @@
 package cache
 
 import (
-	"github.com/ollama/ollama/logutil"
-	"github.com/ollama/ollama/x/mlxrunner/mlx"
+	"github.com/yurivict/ollama/logutil"
+	"github.com/yurivict/ollama/x/mlxrunner/mlx"
 )
 
 type Cache interface {

@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ollama/ollama/fs/ggml"
+	"github.com/yurivict/ollama/fs/ggml"
 )
 
 func boolPtr(v bool) *bool {

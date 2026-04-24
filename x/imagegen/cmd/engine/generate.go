@@ -6,9 +6,9 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/ollama/ollama/x/imagegen/cache"
-	"github.com/ollama/ollama/x/imagegen/mlx"
-	"github.com/ollama/ollama/x/imagegen/tokenizer"
+	"github.com/yurivict/ollama/x/imagegen/cache"
+	"github.com/yurivict/ollama/x/imagegen/mlx"
+	"github.com/yurivict/ollama/x/imagegen/tokenizer"
 )
 
 // Dedicated stream for generation (like mlx-lm's generation_stream)

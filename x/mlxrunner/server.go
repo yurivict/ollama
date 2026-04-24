@@ -13,10 +13,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/ollama/ollama/envconfig"
-	"github.com/ollama/ollama/logutil"
-	"github.com/ollama/ollama/x/mlxrunner/mlx"
-	"github.com/ollama/ollama/x/mlxrunner/sample"
+	"github.com/yurivict/ollama/envconfig"
+	"github.com/yurivict/ollama/logutil"
+	"github.com/yurivict/ollama/x/mlxrunner/mlx"
+	"github.com/yurivict/ollama/x/mlxrunner/sample"
 )
 
 func Execute(args []string) error {

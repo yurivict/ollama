@@ -13,12 +13,12 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/ollama/ollama/anthropic"
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/envconfig"
-	internalcloud "github.com/ollama/ollama/internal/cloud"
-	"github.com/ollama/ollama/internal/modelref"
-	"github.com/ollama/ollama/logutil"
+	"github.com/yurivict/ollama/anthropic"
+	"github.com/yurivict/ollama/api"
+	"github.com/yurivict/ollama/envconfig"
+	internalcloud "github.com/yurivict/ollama/internal/cloud"
+	"github.com/yurivict/ollama/internal/modelref"
+	"github.com/yurivict/ollama/logutil"
 )
 
 // AnthropicWriter wraps the response writer to transform Ollama responses to Anthropic format

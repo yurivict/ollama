@@ -18,8 +18,8 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/ollama/ollama/server/internal/cache/blob"
-	"github.com/ollama/ollama/server/internal/testutil"
+	"github.com/yurivict/ollama/server/internal/cache/blob"
+	"github.com/yurivict/ollama/server/internal/testutil"
 )
 
 func ExampleRegistry_cancelOnFirstError() {

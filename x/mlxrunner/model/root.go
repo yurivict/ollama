@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ollama/ollama/x/imagegen/manifest"
+	"github.com/yurivict/ollama/x/imagegen/manifest"
 )
 
 // TensorQuantInfo describes per-tensor quantization metadata.

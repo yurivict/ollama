@@ -1,7 +1,7 @@
 package cloud
 
 import (
-	"github.com/ollama/ollama/envconfig"
+	"github.com/yurivict/ollama/envconfig"
 )
 
 const DisabledMessagePrefix = "ollama cloud is disabled"

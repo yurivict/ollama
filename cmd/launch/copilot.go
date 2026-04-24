@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/ollama/ollama/envconfig"
+	"github.com/yurivict/ollama/envconfig"
 )
 
 // Copilot implements Runner for GitHub Copilot CLI integration.

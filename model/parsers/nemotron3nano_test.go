@@ -5,7 +5,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/ollama/ollama/api"
+	"github.com/yurivict/ollama/api"
 )
 
 // TestNemotron3NanoParser tests Nemotron-specific behavior (thinking support).

@@ -6,7 +6,7 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/ollama/ollama/ml"
+	"github.com/yurivict/ollama/ml"
 )
 
 func newTestCache() *Recurrent {

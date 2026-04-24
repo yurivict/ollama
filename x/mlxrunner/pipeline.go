@@ -9,11 +9,11 @@ import (
 	"sort"
 	"time"
 
-	"github.com/ollama/ollama/llm"
-	"github.com/ollama/ollama/logutil"
-	"github.com/ollama/ollama/x/mlxrunner/mlx"
-	sampler "github.com/ollama/ollama/x/mlxrunner/sample"
-	"github.com/ollama/ollama/x/tokenizer"
+	"github.com/yurivict/ollama/llm"
+	"github.com/yurivict/ollama/logutil"
+	"github.com/yurivict/ollama/x/mlxrunner/mlx"
+	sampler "github.com/yurivict/ollama/x/mlxrunner/sample"
+	"github.com/yurivict/ollama/x/tokenizer"
 )
 
 func prefillChunkSize() int {

@@ -18,8 +18,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ollama/ollama/app/logrotate"
-	"github.com/ollama/ollama/app/store"
+	"github.com/yurivict/ollama/app/logrotate"
+	"github.com/yurivict/ollama/app/store"
 )
 
 const restartDelay = time.Second

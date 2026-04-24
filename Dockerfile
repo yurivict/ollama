@@ -152,7 +152,7 @@ ENV PATH=/usr/local/cuda-13/bin:$PATH
 ENV BLAS_INCLUDE_DIRS=/usr/include/openblas
 ENV LAPACK_INCLUDE_DIRS=/usr/include/openblas
 ENV CGO_LDFLAGS="-L/usr/local/cuda-13/lib64 -L/usr/local/cuda-13/targets/x86_64-linux/lib/stubs"
-WORKDIR /go/src/github.com/ollama/ollama
+WORKDIR /go/src/github.com/yurivict/ollama
 COPY CMakeLists.txt CMakePresets.json .
 COPY ml/backend/ggml/ggml ml/backend/ggml/ggml
 COPY x/imagegen/mlx x/imagegen/mlx
@@ -175,7 +175,7 @@ RUN --mount=type=cache,target=/root/.ccache \
         && cmake --install build --component MLX --strip
 
 FROM base AS build
-WORKDIR /go/src/github.com/ollama/ollama
+WORKDIR /go/src/github.com/yurivict/ollama
 COPY go.mod go.sum .
 RUN curl -fsSL https://golang.org/dl/go$(awk '/^go/ { print $2 }' go.mod).linux-$(case $(uname -m) in x86_64) echo amd64 ;; aarch64) echo arm64 ;; esac).tar.gz | tar xz -C /usr/local
 ENV PATH=/usr/local/go/bin:$PATH
@@ -195,7 +195,7 @@ FROM --platform=linux/amd64 scratch AS amd64
 COPY --from=cuda-12 dist/lib/ollama /lib/ollama/
 COPY --from=cuda-13 dist/lib/ollama /lib/ollama/
 COPY --from=vulkan  dist/lib/ollama  /lib/ollama/
-COPY --from=mlx     /go/src/github.com/ollama/ollama/dist/lib/ollama /lib/ollama/
+COPY --from=mlx     /go/src/github.com/yurivict/ollama/dist/lib/ollama /lib/ollama/
 
 FROM --platform=linux/arm64 scratch AS arm64
 # COPY --from=cuda-11 dist/lib/ollama/ /lib/ollama/

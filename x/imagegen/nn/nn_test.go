@@ -8,7 +8,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/ollama/ollama/x/imagegen/mlx"
+	"github.com/yurivict/ollama/x/imagegen/mlx"
 )
 
 // TestMain initializes MLX before running tests.

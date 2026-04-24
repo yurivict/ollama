@@ -15,7 +15,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ollama/ollama/api"
+	"github.com/yurivict/ollama/api"
 )
 
 var defaultAudioModels = []string{

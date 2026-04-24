@@ -19,9 +19,9 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/ollama/ollama/app/dialog"
-	"github.com/ollama/ollama/app/store"
-	"github.com/ollama/ollama/app/webview"
+	"github.com/yurivict/ollama/app/dialog"
+	"github.com/yurivict/ollama/app/store"
+	"github.com/yurivict/ollama/app/webview"
 )
 
 type Webview struct {

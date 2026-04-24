@@ -3,7 +3,7 @@ package server
 import (
 	"testing"
 
-	"github.com/ollama/ollama/envconfig"
+	"github.com/yurivict/ollama/envconfig"
 )
 
 func setTestHome(t *testing.T, home string) {

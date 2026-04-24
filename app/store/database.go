@@ -162,7 +162,7 @@ func (db *database) init() error {
 	}
 
 	// Clean up orphaned records created before foreign key constraints were properly enforced
-	// TODO: Can eventually be removed - cleans up data from foreign key bug (ollama/ollama#11785, ollama/app#476)
+	// TODO: Can eventually be removed - cleans up data from foreign key bug (yurivict/ollama#11785, ollama/app#476)
 	if err := db.cleanupOrphanedData(); err != nil {
 		return fmt.Errorf("cleanup orphaned data: %w", err)
 	}

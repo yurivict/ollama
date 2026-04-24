@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/envconfig"
+	"github.com/yurivict/ollama/api"
+	"github.com/yurivict/ollama/envconfig"
 )
 
 // Kimi implements Runner for Kimi Code CLI integration.

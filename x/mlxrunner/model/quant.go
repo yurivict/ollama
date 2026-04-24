@@ -3,7 +3,7 @@ package model
 import (
 	"strings"
 
-	"github.com/ollama/ollama/x/mlxrunner/mlx"
+	"github.com/yurivict/ollama/x/mlxrunner/mlx"
 )
 
 // QuantizationParams returns default groupSize, bits, and mode for a quantization type.

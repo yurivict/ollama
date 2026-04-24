@@ -22,22 +22,22 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/app/server"
-	"github.com/ollama/ollama/app/store"
-	"github.com/ollama/ollama/app/tools"
-	"github.com/ollama/ollama/app/types/not"
-	"github.com/ollama/ollama/app/ui/responses"
-	"github.com/ollama/ollama/app/updater"
-	"github.com/ollama/ollama/app/version"
-	ollamaAuth "github.com/ollama/ollama/auth"
-	"github.com/ollama/ollama/envconfig"
-	"github.com/ollama/ollama/manifest"
-	"github.com/ollama/ollama/types/model"
+	"github.com/yurivict/ollama/api"
+	"github.com/yurivict/ollama/app/server"
+	"github.com/yurivict/ollama/app/store"
+	"github.com/yurivict/ollama/app/tools"
+	"github.com/yurivict/ollama/app/types/not"
+	"github.com/yurivict/ollama/app/ui/responses"
+	"github.com/yurivict/ollama/app/updater"
+	"github.com/yurivict/ollama/app/version"
+	ollamaAuth "github.com/yurivict/ollama/auth"
+	"github.com/yurivict/ollama/envconfig"
+	"github.com/yurivict/ollama/manifest"
+	"github.com/yurivict/ollama/types/model"
 	_ "github.com/tkrajina/typescriptify-golang-structs/typescriptify"
 )
 
-//go:generate tscriptify -package=github.com/ollama/ollama/app/ui/responses -target=./app/codegen/gotypes.gen.ts responses/types.go
+//go:generate tscriptify -package=github.com/yurivict/ollama/app/ui/responses -target=./app/codegen/gotypes.gen.ts responses/types.go
 //go:generate npm --prefix ./app run build
 
 var CORS = envconfig.Bool("OLLAMA_CORS")

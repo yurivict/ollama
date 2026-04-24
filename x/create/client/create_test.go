@@ -8,10 +8,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ollama/ollama/manifest"
-	"github.com/ollama/ollama/parser"
-	"github.com/ollama/ollama/types/model"
-	"github.com/ollama/ollama/x/create"
+	"github.com/yurivict/ollama/manifest"
+	"github.com/yurivict/ollama/parser"
+	"github.com/yurivict/ollama/types/model"
+	"github.com/yurivict/ollama/x/create"
 )
 
 func TestModelfileConfig(t *testing.T) {

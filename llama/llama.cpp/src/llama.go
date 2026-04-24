@@ -7,6 +7,6 @@ package llama
 import "C"
 
 import (
-	_ "github.com/ollama/ollama/llama/llama.cpp/src/models"
-	_ "github.com/ollama/ollama/ml/backend/ggml/ggml/src"
+	_ "github.com/yurivict/ollama/llama/llama.cpp/src/models"
+	_ "github.com/yurivict/ollama/ml/backend/ggml/ggml/src"
 )

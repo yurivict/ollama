@@ -1,7 +1,7 @@
 package dialog
 
 import (
-	"github.com/ollama/ollama/app/dialog/cocoa"
+	"github.com/yurivict/ollama/app/dialog/cocoa"
 )
 
 func (b *MsgBuilder) yesNo() bool {

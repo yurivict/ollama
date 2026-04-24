@@ -14,9 +14,9 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/ollama/ollama/envconfig"
-	"github.com/ollama/ollama/internal/orderedmap"
-	"github.com/ollama/ollama/types/model"
+	"github.com/yurivict/ollama/envconfig"
+	"github.com/yurivict/ollama/internal/orderedmap"
+	"github.com/yurivict/ollama/types/model"
 )
 
 // StatusError is an error with an HTTP status code and message.

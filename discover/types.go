@@ -6,8 +6,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/ollama/ollama/format"
-	"github.com/ollama/ollama/ml"
+	"github.com/yurivict/ollama/format"
+	"github.com/yurivict/ollama/ml"
 )
 
 type memInfo struct {

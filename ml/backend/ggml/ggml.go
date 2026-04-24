@@ -29,13 +29,13 @@ import (
 	"unicode"
 	"unsafe"
 
-	"github.com/ollama/ollama/format"
-	"github.com/ollama/ollama/fs"
-	fsggml "github.com/ollama/ollama/fs/ggml"
-	"github.com/ollama/ollama/logutil"
-	"github.com/ollama/ollama/ml"
-	ggml "github.com/ollama/ollama/ml/backend/ggml/ggml/src"
-	"github.com/ollama/ollama/ml/nn/rope"
+	"github.com/yurivict/ollama/format"
+	"github.com/yurivict/ollama/fs"
+	fsggml "github.com/yurivict/ollama/fs/ggml"
+	"github.com/yurivict/ollama/logutil"
+	"github.com/yurivict/ollama/ml"
+	ggml "github.com/yurivict/ollama/ml/backend/ggml/ggml/src"
+	"github.com/yurivict/ollama/ml/nn/rope"
 	"golang.org/x/sync/errgroup"
 )
 

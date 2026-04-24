@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/format"
-	"github.com/ollama/ollama/types/model"
+	"github.com/yurivict/ollama/api"
+	"github.com/yurivict/ollama/format"
+	"github.com/yurivict/ollama/types/model"
 )
 
 var (

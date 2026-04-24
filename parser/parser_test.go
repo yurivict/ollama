@@ -20,9 +20,9 @@ import (
 	"golang.org/x/text/encoding"
 	"golang.org/x/text/encoding/unicode"
 
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/convert"
-	"github.com/ollama/ollama/fs/ggml"
+	"github.com/yurivict/ollama/api"
+	"github.com/yurivict/ollama/convert"
+	"github.com/yurivict/ollama/fs/ggml"
 )
 
 func TestParseFileFile(t *testing.T) {

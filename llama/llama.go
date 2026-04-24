@@ -39,12 +39,12 @@ import (
 	"sync"
 	"unsafe"
 
-	_ "github.com/ollama/ollama/llama/llama.cpp/common"
-	_ "github.com/ollama/ollama/llama/llama.cpp/src"
-	_ "github.com/ollama/ollama/llama/llama.cpp/tools/mtmd"
-	_ "github.com/ollama/ollama/llama/llama.cpp/tools/mtmd/models"
-	"github.com/ollama/ollama/ml"
-	ggml "github.com/ollama/ollama/ml/backend/ggml/ggml/src"
+	_ "github.com/yurivict/ollama/llama/llama.cpp/common"
+	_ "github.com/yurivict/ollama/llama/llama.cpp/src"
+	_ "github.com/yurivict/ollama/llama/llama.cpp/tools/mtmd"
+	_ "github.com/yurivict/ollama/llama/llama.cpp/tools/mtmd/models"
+	"github.com/yurivict/ollama/ml"
+	ggml "github.com/yurivict/ollama/ml/backend/ggml/ggml/src"
 )
 
 func init() {

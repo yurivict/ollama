@@ -23,10 +23,10 @@ import (
 	"slices"
 	"time"
 
-	"github.com/ollama/ollama/logutil"
-	"github.com/ollama/ollama/x/mlxrunner/cache"
-	"github.com/ollama/ollama/x/mlxrunner/mlx"
-	"github.com/ollama/ollama/x/mlxrunner/model/base"
+	"github.com/yurivict/ollama/logutil"
+	"github.com/yurivict/ollama/x/mlxrunner/cache"
+	"github.com/yurivict/ollama/x/mlxrunner/mlx"
+	"github.com/yurivict/ollama/x/mlxrunner/model/base"
 )
 
 const maxPagedOutBytes int64 = 8 << 30 // 8 GiB eviction threshold for paged-out snapshot memory

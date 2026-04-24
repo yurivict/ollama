@@ -26,20 +26,20 @@ import (
 	"golang.org/x/image/bmp"
 	"golang.org/x/sync/semaphore"
 
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/envconfig"
-	"github.com/ollama/ollama/fs/ggml"
-	"github.com/ollama/ollama/llm"
-	"github.com/ollama/ollama/logutil"
-	"github.com/ollama/ollama/ml"
-	"github.com/ollama/ollama/ml/nn/pooling"
-	"github.com/ollama/ollama/model"
-	"github.com/ollama/ollama/model/input"
-	"github.com/ollama/ollama/runner/common"
-	"github.com/ollama/ollama/sample"
-	"github.com/ollama/ollama/tokenizer"
+	"github.com/yurivict/ollama/api"
+	"github.com/yurivict/ollama/envconfig"
+	"github.com/yurivict/ollama/fs/ggml"
+	"github.com/yurivict/ollama/llm"
+	"github.com/yurivict/ollama/logutil"
+	"github.com/yurivict/ollama/ml"
+	"github.com/yurivict/ollama/ml/nn/pooling"
+	"github.com/yurivict/ollama/model"
+	"github.com/yurivict/ollama/model/input"
+	"github.com/yurivict/ollama/runner/common"
+	"github.com/yurivict/ollama/sample"
+	"github.com/yurivict/ollama/tokenizer"
 
-	_ "github.com/ollama/ollama/model/models"
+	_ "github.com/yurivict/ollama/model/models"
 )
 
 // response contains a piece of generated text along with optional logprobs

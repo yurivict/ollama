@@ -9,7 +9,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/ollama/ollama/fs/ggml"
+	"github.com/yurivict/ollama/fs/ggml"
 )
 
 // lfm2VLTextModel converts the language model component of LFM2 VL checkpoints.

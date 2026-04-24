@@ -1,10 +1,10 @@
 package runner
 
 import (
-	"github.com/ollama/ollama/runner/llamarunner"
-	"github.com/ollama/ollama/runner/ollamarunner"
-	"github.com/ollama/ollama/x/imagegen"
-	"github.com/ollama/ollama/x/mlxrunner"
+	"github.com/yurivict/ollama/runner/llamarunner"
+	"github.com/yurivict/ollama/runner/ollamarunner"
+	"github.com/yurivict/ollama/x/imagegen"
+	"github.com/yurivict/ollama/x/mlxrunner"
 )
 
 func Execute(args []string) error {

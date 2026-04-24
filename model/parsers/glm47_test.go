@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ollama/ollama/api"
+	"github.com/yurivict/ollama/api"
 )
 
 func TestGLM47ParserAdd(t *testing.T) {

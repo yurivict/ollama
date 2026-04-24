@@ -11,7 +11,7 @@ import (
 	"log/slog"
 	"syscall"
 
-	"github.com/ollama/ollama/format"
+	"github.com/yurivict/ollama/format"
 )
 
 const (

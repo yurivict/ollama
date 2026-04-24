@@ -6,8 +6,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/ollama/ollama/api"
-	internalcloud "github.com/ollama/ollama/internal/cloud"
+	"github.com/yurivict/ollama/api"
+	internalcloud "github.com/yurivict/ollama/internal/cloud"
 )
 
 // ensureCloudEnabledForTool checks cloud policy from the connected Ollama server.

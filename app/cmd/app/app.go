@@ -22,14 +22,14 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/ollama/ollama/app/auth"
-	"github.com/ollama/ollama/app/logrotate"
-	"github.com/ollama/ollama/app/server"
-	"github.com/ollama/ollama/app/store"
-	"github.com/ollama/ollama/app/tools"
-	"github.com/ollama/ollama/app/ui"
-	"github.com/ollama/ollama/app/updater"
-	"github.com/ollama/ollama/app/version"
+	"github.com/yurivict/ollama/app/auth"
+	"github.com/yurivict/ollama/app/logrotate"
+	"github.com/yurivict/ollama/app/server"
+	"github.com/yurivict/ollama/app/store"
+	"github.com/yurivict/ollama/app/tools"
+	"github.com/yurivict/ollama/app/ui"
+	"github.com/yurivict/ollama/app/updater"
+	"github.com/yurivict/ollama/app/version"
 )
 
 var (

@@ -11,8 +11,8 @@ import (
 	"testing"
 
 	"github.com/gin-gonic/gin"
-	internalcloud "github.com/ollama/ollama/internal/cloud"
-	"github.com/ollama/ollama/version"
+	internalcloud "github.com/yurivict/ollama/internal/cloud"
+	"github.com/yurivict/ollama/version"
 )
 
 type webExperimentalUpstreamCapture struct {

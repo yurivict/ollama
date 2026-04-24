@@ -1,8 +1,8 @@
 package lfm2
 
 import (
-	"github.com/ollama/ollama/kvcache"
-	"github.com/ollama/ollama/ml"
+	"github.com/yurivict/ollama/kvcache"
+	"github.com/yurivict/ollama/ml"
 )
 
 var (

@@ -15,15 +15,15 @@ import (
 	_ "golang.org/x/image/tiff"
 	_ "golang.org/x/image/webp"
 
-	"github.com/ollama/ollama/fs"
-	fsggml "github.com/ollama/ollama/fs/ggml"
-	"github.com/ollama/ollama/kvcache"
-	"github.com/ollama/ollama/logutil"
-	"github.com/ollama/ollama/ml"
-	_ "github.com/ollama/ollama/ml/backend"
-	"github.com/ollama/ollama/ml/nn/pooling"
-	"github.com/ollama/ollama/model/input"
-	"github.com/ollama/ollama/tokenizer"
+	"github.com/yurivict/ollama/fs"
+	fsggml "github.com/yurivict/ollama/fs/ggml"
+	"github.com/yurivict/ollama/kvcache"
+	"github.com/yurivict/ollama/logutil"
+	"github.com/yurivict/ollama/ml"
+	_ "github.com/yurivict/ollama/ml/backend"
+	"github.com/yurivict/ollama/ml/nn/pooling"
+	"github.com/yurivict/ollama/model/input"
+	"github.com/yurivict/ollama/tokenizer"
 )
 
 var (

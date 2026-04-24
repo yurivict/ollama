@@ -14,8 +14,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/types/model"
+	"github.com/yurivict/ollama/api"
+	"github.com/yurivict/ollama/types/model"
 )
 
 var finishReasonToolCalls = "tool_calls"
@@ -137,7 +137,7 @@ type ChatCompletionChunk struct {
 	Usage             *Usage        `json:"usage,omitempty"`
 }
 
-// TODO (https://github.com/ollama/ollama/issues/5259): support []string, []int and [][]int
+// TODO (https://github.com/yurivict/ollama/issues/5259): support []string, []int and [][]int
 type CompletionRequest struct {
 	Model            string         `json:"model"`
 	Prompt           string         `json:"prompt"`

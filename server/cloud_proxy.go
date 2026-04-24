@@ -18,10 +18,10 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/klauspost/compress/zstd"
 
-	"github.com/ollama/ollama/auth"
-	"github.com/ollama/ollama/envconfig"
-	internalcloud "github.com/ollama/ollama/internal/cloud"
-	"github.com/ollama/ollama/version"
+	"github.com/yurivict/ollama/auth"
+	"github.com/yurivict/ollama/envconfig"
+	internalcloud "github.com/yurivict/ollama/internal/cloud"
+	"github.com/yurivict/ollama/version"
 )
 
 const (

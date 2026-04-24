@@ -13,7 +13,7 @@ Tokenizer for LLM inference supporting BPE, SentencePiece, and WordPiece algorit
 ## Usage
 
 ```go
-import "github.com/ollama/ollama/x/imagegen/tokenizer"
+import "github.com/yurivict/ollama/x/imagegen/tokenizer"
 
 // Load from HuggingFace model directory
 tok, err := tokenizer.Load("./weights/Llama-3.2-1B")

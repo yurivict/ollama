@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ollama/ollama/api"
+	"github.com/yurivict/ollama/api"
 )
 
 type Qwen3VLRenderer struct {
@@ -15,7 +15,7 @@ type Qwen3VLRenderer struct {
 }
 
 func (r *Qwen3VLRenderer) renderContent(content api.Message, imageOffset int) (string, int) {
-	// This assumes all images are at the front of the message - same assumption as ollama/ollama/runner.go
+	// This assumes all images are at the front of the message - same assumption as yurivict/ollama/runner.go
 	var subSb strings.Builder
 	for range content.Images {
 		// TODO: (jmorganca): how to render this is different for different

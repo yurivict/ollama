@@ -3,7 +3,7 @@ package renderers
 import (
 	"fmt"
 
-	"github.com/ollama/ollama/api"
+	"github.com/yurivict/ollama/api"
 )
 
 type Renderer interface {

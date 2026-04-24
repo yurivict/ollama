@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/logutil"
+	"github.com/yurivict/ollama/api"
+	"github.com/yurivict/ollama/logutil"
 )
 
 type olmo3ParserState int

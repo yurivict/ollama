@@ -10,10 +10,10 @@ import (
 	"math"
 	"time"
 
-	"github.com/ollama/ollama/x/imagegen/manifest"
-	"github.com/ollama/ollama/x/imagegen/mlx"
-	"github.com/ollama/ollama/x/imagegen/models/qwen3"
-	"github.com/ollama/ollama/x/imagegen/tokenizer"
+	"github.com/yurivict/ollama/x/imagegen/manifest"
+	"github.com/yurivict/ollama/x/imagegen/mlx"
+	"github.com/yurivict/ollama/x/imagegen/models/qwen3"
+	"github.com/yurivict/ollama/x/imagegen/tokenizer"
 	"golang.org/x/image/draw"
 )
 

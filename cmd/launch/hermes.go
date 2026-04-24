@@ -16,10 +16,10 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/cmd/config"
-	"github.com/ollama/ollama/cmd/internal/fileutil"
-	"github.com/ollama/ollama/envconfig"
+	"github.com/yurivict/ollama/api"
+	"github.com/yurivict/ollama/cmd/config"
+	"github.com/yurivict/ollama/cmd/internal/fileutil"
+	"github.com/yurivict/ollama/envconfig"
 )
 
 const (

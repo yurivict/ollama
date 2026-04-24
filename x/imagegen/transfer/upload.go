@@ -15,7 +15,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/ollama/ollama/logutil"
+	"github.com/yurivict/ollama/logutil"
 
 	"golang.org/x/sync/errgroup"
 	"golang.org/x/sync/semaphore"

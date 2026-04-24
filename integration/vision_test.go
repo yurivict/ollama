@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/types/model"
+	"github.com/yurivict/ollama/api"
+	"github.com/yurivict/ollama/types/model"
 )
 
 // Default set of vision models to test. When OLLAMA_TEST_MODEL is set,

@@ -9,8 +9,8 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/cmd/config"
+	"github.com/yurivict/ollama/api"
+	"github.com/yurivict/ollama/cmd/config"
 	"github.com/spf13/cobra"
 	"golang.org/x/term"
 )
@@ -588,7 +588,7 @@ func (c *launcherClient) launchManagedSingleIntegration(ctx context.Context, nam
 		return nil
 	}
 
-	if (current == "" || needsConfigure || req.ModelOverride != "" || target != current) && !savedMatchesModels(saved, []string{target}) {
+	if needsConfigure || req.ModelOverride != "" || (current != "" && target != current) || !savedMatchesModels(saved, []string{target}) {
 		if err := prepareManagedSingleIntegration(name, runner, managed, target); err != nil {
 			return err
 		}

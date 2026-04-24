@@ -7,7 +7,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/ollama/ollama/api"
+	"github.com/yurivict/ollama/api"
 )
 
 type CogitoParserState int

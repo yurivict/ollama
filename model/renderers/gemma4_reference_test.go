@@ -26,7 +26,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ollama/ollama/api"
+	"github.com/yurivict/ollama/api"
 	"github.com/stretchr/testify/assert"
 )
 

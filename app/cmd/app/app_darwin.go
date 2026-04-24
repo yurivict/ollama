@@ -18,8 +18,8 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/ollama/ollama/app/updater"
-	"github.com/ollama/ollama/app/version"
+	"github.com/yurivict/ollama/app/updater"
+	"github.com/yurivict/ollama/app/version"
 )
 
 var ollamaPath = func() string {

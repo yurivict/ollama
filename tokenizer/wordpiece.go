@@ -6,7 +6,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/ollama/ollama/logutil"
+	"github.com/yurivict/ollama/logutil"
 )
 
 type WordPiece struct {

@@ -22,9 +22,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ollama/ollama/app/store"
-	"github.com/ollama/ollama/app/version"
-	"github.com/ollama/ollama/auth"
+	"github.com/yurivict/ollama/app/store"
+	"github.com/yurivict/ollama/app/version"
+	"github.com/yurivict/ollama/auth"
 )
 
 var (

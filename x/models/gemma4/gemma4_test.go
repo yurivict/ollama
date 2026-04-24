@@ -3,7 +3,7 @@ package gemma4
 import (
 	"testing"
 
-	"github.com/ollama/ollama/x/mlxrunner/mlx"
+	"github.com/yurivict/ollama/x/mlxrunner/mlx"
 )
 
 func TestParseTextConfigE2B(t *testing.T) {

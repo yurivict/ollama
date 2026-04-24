@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ollama/ollama/x/imagegen/cache"
-	"github.com/ollama/ollama/x/imagegen/manifest"
-	"github.com/ollama/ollama/x/imagegen/mlx"
-	"github.com/ollama/ollama/x/imagegen/tokenizer"
-	"github.com/ollama/ollama/x/imagegen/vae"
+	"github.com/yurivict/ollama/x/imagegen/cache"
+	"github.com/yurivict/ollama/x/imagegen/manifest"
+	"github.com/yurivict/ollama/x/imagegen/mlx"
+	"github.com/yurivict/ollama/x/imagegen/tokenizer"
+	"github.com/yurivict/ollama/x/imagegen/vae"
 )
 
 // GenerateConfig holds all options for image generation.

@@ -16,12 +16,12 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/fs/ggml"
-	"github.com/ollama/ollama/llm"
-	"github.com/ollama/ollama/manifest"
-	"github.com/ollama/ollama/ml"
-	"github.com/ollama/ollama/types/model"
+	"github.com/yurivict/ollama/api"
+	"github.com/yurivict/ollama/fs/ggml"
+	"github.com/yurivict/ollama/llm"
+	"github.com/yurivict/ollama/manifest"
+	"github.com/yurivict/ollama/ml"
+	"github.com/yurivict/ollama/types/model"
 )
 
 // testPropsMap creates a ToolPropertiesMap from a map (convenience function for tests)
@@ -2114,7 +2114,7 @@ func TestChatWithPromptEndingInThinkTag(t *testing.T) {
 // first and only completion call. Previously, format was deferred for all
 // thinking-capable parsers and only re-applied after an end-of-thinking
 // transition — a transition that never fires when thinking is off. See
-// https://github.com/ollama/ollama/issues/15260.
+// https://github.com/yurivict/ollama/issues/15260.
 func TestChatFormatWithThinkFalse(t *testing.T) {
 	gin.SetMode(gin.TestMode)
 

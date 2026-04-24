@@ -3,7 +3,7 @@ package tools
 import (
 	"testing"
 
-	"github.com/ollama/ollama/api"
+	"github.com/yurivict/ollama/api"
 )
 
 func TestRegistry_Register(t *testing.T) {

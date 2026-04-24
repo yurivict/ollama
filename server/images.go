@@ -21,17 +21,17 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/envconfig"
-	"github.com/ollama/ollama/fs/gguf"
-	"github.com/ollama/ollama/manifest"
-	"github.com/ollama/ollama/model/parsers"
-	"github.com/ollama/ollama/parser"
-	"github.com/ollama/ollama/template"
-	"github.com/ollama/ollama/thinking"
-	"github.com/ollama/ollama/types/model"
-	"github.com/ollama/ollama/version"
-	"github.com/ollama/ollama/x/imagegen/transfer"
+	"github.com/yurivict/ollama/api"
+	"github.com/yurivict/ollama/envconfig"
+	"github.com/yurivict/ollama/fs/gguf"
+	"github.com/yurivict/ollama/manifest"
+	"github.com/yurivict/ollama/model/parsers"
+	"github.com/yurivict/ollama/parser"
+	"github.com/yurivict/ollama/template"
+	"github.com/yurivict/ollama/thinking"
+	"github.com/yurivict/ollama/types/model"
+	"github.com/yurivict/ollama/version"
+	"github.com/yurivict/ollama/x/imagegen/transfer"
 )
 
 // Blobs newer than this may belong to another process that has not written its

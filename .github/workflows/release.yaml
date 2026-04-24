@@ -22,7 +22,7 @@ jobs:
       - name: Set environment
         id: goflags
         run: |
-          echo GOFLAGS="'-ldflags=-w -s \"-X=github.com/ollama/ollama/version.Version=${GITHUB_REF_NAME#v}\" \"-X=github.com/ollama/ollama/server.mode=release\"'" | tee -a $GITHUB_OUTPUT
+          echo GOFLAGS="'-ldflags=-w -s \"-X=github.com/yurivict/ollama/version.Version=${GITHUB_REF_NAME#v}\" \"-X=github.com/yurivict/ollama/server.mode=release\"'" | tee -a $GITHUB_OUTPUT
           echo VERSION="${GITHUB_REF_NAME#v}" | tee -a $GITHUB_OUTPUT
           echo vendorsha=$(make -f Makefile.sync print-base) | tee -a $GITHUB_OUTPUT
 

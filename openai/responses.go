@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ollama/ollama/api"
+	"github.com/yurivict/ollama/api"
 )
 
 // ResponsesContent is a discriminated union for input content types.

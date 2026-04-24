@@ -26,15 +26,15 @@ import (
 
 	"golang.org/x/sync/semaphore"
 
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/envconfig"
-	"github.com/ollama/ollama/format"
-	"github.com/ollama/ollama/fs/ggml"
-	"github.com/ollama/ollama/llama"
-	"github.com/ollama/ollama/logutil"
-	"github.com/ollama/ollama/ml"
-	"github.com/ollama/ollama/model"
-	"github.com/ollama/ollama/tokenizer"
+	"github.com/yurivict/ollama/api"
+	"github.com/yurivict/ollama/envconfig"
+	"github.com/yurivict/ollama/format"
+	"github.com/yurivict/ollama/fs/ggml"
+	"github.com/yurivict/ollama/llama"
+	"github.com/yurivict/ollama/logutil"
+	"github.com/yurivict/ollama/ml"
+	"github.com/yurivict/ollama/model"
+	"github.com/yurivict/ollama/tokenizer"
 )
 
 type filteredEnv []string

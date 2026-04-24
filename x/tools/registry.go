@@ -6,7 +6,7 @@ import (
 	"os"
 	"sort"
 
-	"github.com/ollama/ollama/api"
+	"github.com/yurivict/ollama/api"
 )
 
 // Tool defines the interface for agent tools.

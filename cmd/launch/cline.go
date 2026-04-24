@@ -7,8 +7,8 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"github.com/ollama/ollama/cmd/internal/fileutil"
-	"github.com/ollama/ollama/envconfig"
+	"github.com/yurivict/ollama/cmd/internal/fileutil"
+	"github.com/yurivict/ollama/envconfig"
 )
 
 // Cline implements Runner and Editor for the Cline CLI integration

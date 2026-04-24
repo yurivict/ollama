@@ -16,7 +16,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/ollama/ollama/app/types/not"
+	"github.com/yurivict/ollama/app/types/not"
 )
 
 type File struct {

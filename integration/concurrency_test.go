@@ -14,9 +14,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/envconfig"
-	"github.com/ollama/ollama/format"
+	"github.com/yurivict/ollama/api"
+	"github.com/yurivict/ollama/envconfig"
+	"github.com/yurivict/ollama/format"
 )
 
 // Send multiple requests in parallel (concurrently) to a single model and ensure responses are expected

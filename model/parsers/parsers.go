@@ -5,8 +5,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/harmony"
+	"github.com/yurivict/ollama/api"
+	"github.com/yurivict/ollama/harmony"
 )
 
 type Parser interface {

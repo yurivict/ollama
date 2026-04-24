@@ -6,7 +6,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/ollama/ollama/x/mlxrunner/mlx"
+	"github.com/yurivict/ollama/x/mlxrunner/mlx"
 )
 
 func TestPresencePenaltyUsesAppendedTokenImmediately(t *testing.T) {

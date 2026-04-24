@@ -14,10 +14,10 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/ollama/ollama/api"
-	internalcloud "github.com/ollama/ollama/internal/cloud"
-	"github.com/ollama/ollama/middleware"
-	"github.com/ollama/ollama/version"
+	"github.com/yurivict/ollama/api"
+	internalcloud "github.com/yurivict/ollama/internal/cloud"
+	"github.com/yurivict/ollama/middleware"
+	"github.com/yurivict/ollama/version"
 )
 
 func TestStatusHandler(t *testing.T) {

@@ -4,8 +4,8 @@ import (
 	"errors"
 	"math"
 
-	"github.com/ollama/ollama/ml"
-	"github.com/ollama/ollama/ml/nn"
+	"github.com/yurivict/ollama/ml"
+	"github.com/yurivict/ollama/ml/nn"
 )
 
 // ErrUnsupportedBatchLayout is returned when the batch layout is incompatible

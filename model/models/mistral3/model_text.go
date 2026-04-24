@@ -4,12 +4,12 @@ import (
 	"cmp"
 	"math"
 
-	"github.com/ollama/ollama/fs"
-	"github.com/ollama/ollama/kvcache"
-	"github.com/ollama/ollama/ml"
-	"github.com/ollama/ollama/ml/nn"
-	"github.com/ollama/ollama/ml/nn/rope"
-	"github.com/ollama/ollama/model/input"
+	"github.com/yurivict/ollama/fs"
+	"github.com/yurivict/ollama/kvcache"
+	"github.com/yurivict/ollama/ml"
+	"github.com/yurivict/ollama/ml/nn"
+	"github.com/yurivict/ollama/ml/nn/rope"
+	"github.com/yurivict/ollama/model/input"
 )
 
 type TextOptions struct {

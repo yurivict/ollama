@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/ollama/ollama/envconfig"
+	"github.com/yurivict/ollama/envconfig"
 	"golang.org/x/mod/semver"
 )
 

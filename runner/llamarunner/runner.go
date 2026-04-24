@@ -21,13 +21,13 @@ import (
 
 	"golang.org/x/sync/semaphore"
 
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/envconfig"
-	"github.com/ollama/ollama/llama"
-	"github.com/ollama/ollama/llm"
-	"github.com/ollama/ollama/logutil"
-	"github.com/ollama/ollama/ml"
-	"github.com/ollama/ollama/runner/common"
+	"github.com/yurivict/ollama/api"
+	"github.com/yurivict/ollama/envconfig"
+	"github.com/yurivict/ollama/llama"
+	"github.com/yurivict/ollama/llm"
+	"github.com/yurivict/ollama/logutil"
+	"github.com/yurivict/ollama/ml"
+	"github.com/yurivict/ollama/runner/common"
 )
 
 // response contains a piece of generated text along with optional logprobs

@@ -12,9 +12,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ollama/ollama/x/create"
-	"github.com/ollama/ollama/x/mlxrunner/mlx"
-	"github.com/ollama/ollama/x/mlxrunner/model"
+	"github.com/yurivict/ollama/x/create"
+	"github.com/yurivict/ollama/x/mlxrunner/mlx"
+	"github.com/yurivict/ollama/x/mlxrunner/model"
 )
 
 // loadAndQuantizeArray writes a safetensors reader to a temp file, loads it with MLX,

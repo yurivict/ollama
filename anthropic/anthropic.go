@@ -16,10 +16,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/auth"
-	internalcloud "github.com/ollama/ollama/internal/cloud"
-	"github.com/ollama/ollama/logutil"
+	"github.com/yurivict/ollama/api"
+	"github.com/yurivict/ollama/auth"
+	internalcloud "github.com/yurivict/ollama/internal/cloud"
+	"github.com/yurivict/ollama/logutil"
 )
 
 // Error types matching Anthropic API

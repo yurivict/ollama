@@ -9,7 +9,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ollama/ollama/envconfig"
+	"github.com/yurivict/ollama/envconfig"
 )
 
 const serverConfigFilename = "server.json"

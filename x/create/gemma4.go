@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ollama/ollama/x/safetensors"
+	"github.com/yurivict/ollama/x/safetensors"
 )
 
 type gemma4ImportTransform struct {

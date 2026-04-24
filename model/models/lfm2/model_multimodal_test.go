@@ -3,7 +3,7 @@ package lfm2
 import (
 	"testing"
 
-	"github.com/ollama/ollama/model/input"
+	"github.com/yurivict/ollama/model/input"
 )
 
 func TestPostTokenizeWithSpecialImageTokens(t *testing.T) {

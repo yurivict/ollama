@@ -11,10 +11,10 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/cmd/internal/fileutil"
-	"github.com/ollama/ollama/envconfig"
-	"github.com/ollama/ollama/types/model"
+	"github.com/yurivict/ollama/api"
+	"github.com/yurivict/ollama/cmd/internal/fileutil"
+	"github.com/yurivict/ollama/envconfig"
+	"github.com/yurivict/ollama/types/model"
 )
 
 // Pi implements Runner and Editor for Pi (Pi Coding Agent) integration

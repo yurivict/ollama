@@ -1,6 +1,6 @@
 package nn
 
-import "github.com/ollama/ollama/x/mlxrunner/mlx"
+import "github.com/yurivict/ollama/x/mlxrunner/mlx"
 
 // Layer is the interface for neural network layers with a Forward method.
 type Layer interface {

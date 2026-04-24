@@ -18,14 +18,14 @@ import (
 	"github.com/spf13/cobra"
 	"golang.org/x/term"
 
-	"github.com/ollama/ollama/api"
-	internalcloud "github.com/ollama/ollama/internal/cloud"
-	"github.com/ollama/ollama/internal/modelref"
-	"github.com/ollama/ollama/progress"
-	"github.com/ollama/ollama/readline"
-	"github.com/ollama/ollama/types/model"
-	"github.com/ollama/ollama/x/agent"
-	"github.com/ollama/ollama/x/tools"
+	"github.com/yurivict/ollama/api"
+	internalcloud "github.com/yurivict/ollama/internal/cloud"
+	"github.com/yurivict/ollama/internal/modelref"
+	"github.com/yurivict/ollama/progress"
+	"github.com/yurivict/ollama/readline"
+	"github.com/yurivict/ollama/types/model"
+	"github.com/yurivict/ollama/x/agent"
+	"github.com/yurivict/ollama/x/tools"
 )
 
 // Tool output capping constants

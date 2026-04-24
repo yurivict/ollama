@@ -26,9 +26,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ollama/ollama/envconfig"
-	"github.com/ollama/ollama/fs/gguf"
-	"github.com/ollama/ollama/tokenizer"
+	"github.com/yurivict/ollama/envconfig"
+	"github.com/yurivict/ollama/fs/gguf"
+	"github.com/yurivict/ollama/tokenizer"
 )
 
 type tokenizerRefCase struct {

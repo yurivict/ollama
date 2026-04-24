@@ -1,7 +1,7 @@
 ## CPU only
 
 ```shell
-docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
+docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama yurivict/ollama
 ```
 
 ## Nvidia GPU
@@ -52,7 +52,7 @@ sudo systemctl restart docker
 ### Start the container
 
 ```shell
-docker run -d --gpus=all -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
+docker run -d --gpus=all -v ollama:/root/.ollama -p 11434:11434 --name ollama yurivict/ollama
 ```
 
 <Note>
@@ -65,15 +65,15 @@ docker run -d --gpus=all -v ollama:/root/.ollama -p 11434:11434 --name ollama ol
 To run Ollama using Docker with AMD GPUs, use the `rocm` tag and the following command:
 
 ```shell
-docker run -d --device /dev/kfd --device /dev/dri -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama:rocm
+docker run -d --device /dev/kfd --device /dev/dri -v ollama:/root/.ollama -p 11434:11434 --name ollama yurivict/ollama:rocm
 ```
 
 ## Vulkan Support
 
-Vulkan is bundled into the `ollama/ollama` image.  
+Vulkan is bundled into the `yurivict/ollama` image.  
 
 ```shell
-docker run -d --device /dev/kfd --device /dev/dri -v ollama:/root/.ollama -p 11434:11434 -e OLLAMA_VULKAN=1 --name ollama ollama/ollama
+docker run -d --device /dev/kfd --device /dev/dri -v ollama:/root/.ollama -p 11434:11434 -e OLLAMA_VULKAN=1 --name ollama yurivict/ollama
 ```
 
 

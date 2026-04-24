@@ -21,12 +21,12 @@ import (
 	gocmp "github.com/google/go-cmp/cmp"
 	gocmpopts "github.com/google/go-cmp/cmp/cmpopts"
 
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/convert"
-	"github.com/ollama/ollama/envconfig"
-	"github.com/ollama/ollama/fs/ggml"
-	"github.com/ollama/ollama/manifest"
-	"github.com/ollama/ollama/types/model"
+	"github.com/yurivict/ollama/api"
+	"github.com/yurivict/ollama/convert"
+	"github.com/yurivict/ollama/envconfig"
+	"github.com/yurivict/ollama/fs/ggml"
+	"github.com/yurivict/ollama/manifest"
+	"github.com/yurivict/ollama/types/model"
 )
 
 var stream bool = false

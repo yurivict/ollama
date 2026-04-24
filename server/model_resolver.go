@@ -1,8 +1,8 @@
 package server
 
 import (
-	"github.com/ollama/ollama/internal/modelref"
-	"github.com/ollama/ollama/types/model"
+	"github.com/yurivict/ollama/internal/modelref"
+	"github.com/yurivict/ollama/types/model"
 )
 
 type modelSource = modelref.ModelSource

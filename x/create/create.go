@@ -12,8 +12,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ollama/ollama/envconfig"
-	"github.com/ollama/ollama/x/safetensors"
+	"github.com/yurivict/ollama/envconfig"
+	"github.com/yurivict/ollama/x/safetensors"
 )
 
 // ModelConfig represents the config blob stored with a model.

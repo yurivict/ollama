@@ -317,7 +317,7 @@ function mlxCuda13 {
 function ollama {
     mkdir -Force -path "${script:DIST_DIR}\" | Out-Null
     Write-Output "Building ollama CLI"
-    & go build -trimpath -ldflags "-s -w -X=github.com/ollama/ollama/version.Version=$script:VERSION -X=github.com/ollama/ollama/server.mode=release" .
+    & go build -trimpath -ldflags "-s -w -X=github.com/yurivict/ollama/version.Version=$script:VERSION -X=github.com/yurivict/ollama/server.mode=release" .
     if ($LASTEXITCODE -ne 0) { exit($LASTEXITCODE)}
     cp .\ollama.exe "${script:DIST_DIR}\"
 }
@@ -374,7 +374,7 @@ function app {
     Write-Output "Running go generate"
     & go generate ./...
     if ($LASTEXITCODE -ne 0) { exit($LASTEXITCODE)}
-	& go build -trimpath -ldflags "-s -w -H windowsgui -X=github.com/ollama/ollama/app/version.Version=$script:VERSION" -o .\dist\windows-ollama-app-${script:ARCH}.exe ./app/cmd/app/
+	& go build -trimpath -ldflags "-s -w -H windowsgui -X=github.com/yurivict/ollama/app/version.Version=$script:VERSION" -o .\dist\windows-ollama-app-${script:ARCH}.exe ./app/cmd/app/
     if ($LASTEXITCODE -ne 0) { exit($LASTEXITCODE)}
 }
 

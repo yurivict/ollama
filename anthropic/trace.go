@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/ollama/ollama/api"
+	"github.com/yurivict/ollama/api"
 )
 
 // Trace truncation limits.

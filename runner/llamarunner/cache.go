@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/ollama/ollama/llama"
+	"github.com/yurivict/ollama/llama"
 )
 
 type InputCache struct {

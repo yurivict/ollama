@@ -1,6 +1,6 @@
 package cache
 
-import "github.com/ollama/ollama/x/mlxrunner/mlx"
+import "github.com/yurivict/ollama/x/mlxrunner/mlx"
 
 // RecurrentCache stores state for linear-recurrent layers.
 //

@@ -3,8 +3,8 @@ package nemotronh
 import (
 	"log/slog"
 
-	"github.com/ollama/ollama/ml"
-	"github.com/ollama/ollama/ml/nn"
+	"github.com/yurivict/ollama/ml"
+	"github.com/yurivict/ollama/ml/nn"
 )
 
 // convKernel wraps the 1D convolution kernel tensor

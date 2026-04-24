@@ -3,7 +3,7 @@ package sample
 import (
 	"math"
 
-	"github.com/ollama/ollama/x/mlxrunner/mlx"
+	"github.com/yurivict/ollama/x/mlxrunner/mlx"
 )
 
 type Transform func(*Sampler, *mlx.Array) *mlx.Array

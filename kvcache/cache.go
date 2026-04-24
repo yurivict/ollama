@@ -3,8 +3,8 @@ package kvcache
 import (
 	"errors"
 
-	"github.com/ollama/ollama/ml"
-	"github.com/ollama/ollama/model/input"
+	"github.com/yurivict/ollama/ml"
+	"github.com/yurivict/ollama/model/input"
 )
 
 var (

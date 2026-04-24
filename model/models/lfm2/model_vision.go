@@ -3,9 +3,9 @@ package lfm2
 import (
 	"math"
 
-	"github.com/ollama/ollama/fs"
-	"github.com/ollama/ollama/ml"
-	"github.com/ollama/ollama/ml/nn"
+	"github.com/yurivict/ollama/fs"
+	"github.com/yurivict/ollama/ml"
+	"github.com/yurivict/ollama/ml/nn"
 )
 
 const lfm2VisionBatchSize = 1

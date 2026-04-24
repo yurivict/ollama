@@ -13,9 +13,9 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/ollama/ollama/format"
-	"github.com/ollama/ollama/fs/util/bufioutil"
-	"github.com/ollama/ollama/ml"
+	"github.com/yurivict/ollama/format"
+	"github.com/yurivict/ollama/fs/util/bufioutil"
+	"github.com/yurivict/ollama/ml"
 )
 
 type GGML struct {

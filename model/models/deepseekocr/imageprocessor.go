@@ -9,8 +9,8 @@ import (
 
 	"golang.org/x/image/draw"
 
-	"github.com/ollama/ollama/ml"
-	"github.com/ollama/ollama/model/imageproc"
+	"github.com/yurivict/ollama/ml"
+	"github.com/yurivict/ollama/model/imageproc"
 )
 
 type ratio struct {

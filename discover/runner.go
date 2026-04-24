@@ -16,11 +16,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ollama/ollama/envconfig"
-	"github.com/ollama/ollama/format"
-	"github.com/ollama/ollama/llm"
-	"github.com/ollama/ollama/logutil"
-	"github.com/ollama/ollama/ml"
+	"github.com/yurivict/ollama/envconfig"
+	"github.com/yurivict/ollama/format"
+	"github.com/yurivict/ollama/llm"
+	"github.com/yurivict/ollama/logutil"
+	"github.com/yurivict/ollama/ml"
 )
 
 var (

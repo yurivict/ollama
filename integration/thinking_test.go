@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ollama/ollama/api"
+	"github.com/yurivict/ollama/api"
 )
 
 // TestThinkingEnabled verifies that when thinking is requested, the model

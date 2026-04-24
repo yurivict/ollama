@@ -5,7 +5,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/ollama/ollama/api"
+	"github.com/yurivict/ollama/api"
 )
 
 func TestToEmbeddingList(t *testing.T) {

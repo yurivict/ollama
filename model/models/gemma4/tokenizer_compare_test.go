@@ -4,9 +4,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ollama/ollama/ml"
-	"github.com/ollama/ollama/model"
-	"github.com/ollama/ollama/tokenizer"
+	"github.com/yurivict/ollama/ml"
+	"github.com/yurivict/ollama/model"
+	"github.com/yurivict/ollama/tokenizer"
 )
 
 // TestTokenizerMatchesHF compares our tokenizer output against HuggingFace reference tokens.

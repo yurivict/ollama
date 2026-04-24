@@ -14,7 +14,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/ollama/ollama/app/assets"
+	"github.com/yurivict/ollama/app/assets"
 	"golang.org/x/sys/windows"
 )
 

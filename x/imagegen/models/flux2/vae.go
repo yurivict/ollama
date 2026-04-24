@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/ollama/ollama/x/imagegen/manifest"
-	"github.com/ollama/ollama/x/imagegen/mlx"
-	"github.com/ollama/ollama/x/imagegen/nn"
-	"github.com/ollama/ollama/x/imagegen/safetensors"
-	"github.com/ollama/ollama/x/imagegen/vae"
+	"github.com/yurivict/ollama/x/imagegen/manifest"
+	"github.com/yurivict/ollama/x/imagegen/mlx"
+	"github.com/yurivict/ollama/x/imagegen/nn"
+	"github.com/yurivict/ollama/x/imagegen/safetensors"
+	"github.com/yurivict/ollama/x/imagegen/vae"
 )
 
 // VAEConfig holds AutoencoderKLFlux2 configuration

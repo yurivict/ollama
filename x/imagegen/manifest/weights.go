@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ollama/ollama/x/imagegen/mlx"
+	"github.com/yurivict/ollama/x/imagegen/mlx"
 )
 
 // ManifestWeights provides fast weight loading from tensor blobs.

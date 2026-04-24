@@ -3,7 +3,7 @@ package lfm2
 import (
 	"testing"
 
-	"github.com/ollama/ollama/kvcache"
+	"github.com/yurivict/ollama/kvcache"
 )
 
 func TestHybridCache_New(t *testing.T) {

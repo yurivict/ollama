@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ollama/ollama/fs/ggml"
+	"github.com/yurivict/ollama/fs/ggml"
 	"github.com/pdevine/tensor"
 	"github.com/pdevine/tensor/native"
 )

@@ -1,7 +1,7 @@
 package pooling
 
 import (
-	"github.com/ollama/ollama/ml"
+	"github.com/yurivict/ollama/ml"
 )
 
 type Type uint32

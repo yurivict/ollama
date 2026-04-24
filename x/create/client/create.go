@@ -16,13 +16,13 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/manifest"
-	"github.com/ollama/ollama/parser"
-	"github.com/ollama/ollama/progress"
-	"github.com/ollama/ollama/types/model"
-	"github.com/ollama/ollama/x/create"
-	"github.com/ollama/ollama/x/safetensors"
+	"github.com/yurivict/ollama/api"
+	"github.com/yurivict/ollama/manifest"
+	"github.com/yurivict/ollama/parser"
+	"github.com/yurivict/ollama/progress"
+	"github.com/yurivict/ollama/types/model"
+	"github.com/yurivict/ollama/x/create"
+	"github.com/yurivict/ollama/x/safetensors"
 )
 
 // MinOllamaVersion is the minimum Ollama version required for safetensors models.

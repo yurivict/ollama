@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ollama/ollama/api"
+	"github.com/yurivict/ollama/api"
 )
 
 func TestQwen35RendererUsesXMLToolCallingFormat(t *testing.T) {

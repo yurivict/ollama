@@ -5,8 +5,8 @@ import (
 	"log/slog"
 	"math"
 
-	"github.com/ollama/ollama/fs"
-	"github.com/ollama/ollama/model/imageproc"
+	"github.com/yurivict/ollama/fs"
+	"github.com/yurivict/ollama/model/imageproc"
 )
 
 type ImageProcessor struct {

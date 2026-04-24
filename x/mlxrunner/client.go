@@ -22,13 +22,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/envconfig"
-	"github.com/ollama/ollama/format"
-	"github.com/ollama/ollama/llm"
-	"github.com/ollama/ollama/ml"
-	"github.com/ollama/ollama/x/imagegen"
-	"github.com/ollama/ollama/x/imagegen/manifest"
+	"github.com/yurivict/ollama/api"
+	"github.com/yurivict/ollama/envconfig"
+	"github.com/yurivict/ollama/format"
+	"github.com/yurivict/ollama/llm"
+	"github.com/yurivict/ollama/ml"
+	"github.com/yurivict/ollama/x/imagegen"
+	"github.com/yurivict/ollama/x/imagegen/manifest"
 )
 
 // Client wraps an MLX runner subprocess to implement llm.LlamaServer for LLM models.
