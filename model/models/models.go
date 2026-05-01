@@ -11,6 +11,7 @@ import (
 	_ "github.com/yurivict/ollama/model/models/glm4moelite"
 	_ "github.com/yurivict/ollama/model/models/glmocr"
 	_ "github.com/yurivict/ollama/model/models/gptoss"
+	_ "github.com/yurivict/ollama/model/models/laguna"
 	_ "github.com/yurivict/ollama/model/models/lfm2"
 	_ "github.com/yurivict/ollama/model/models/llama"
 	_ "github.com/yurivict/ollama/model/models/llama4"

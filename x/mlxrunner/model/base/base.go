@@ -6,6 +6,7 @@ import (
 	"log/slog"
 	"sync"
 
+	"github.com/yurivict/ollama/x/mlxrunner/batch"
 	"github.com/yurivict/ollama/x/mlxrunner/cache"
 	"github.com/yurivict/ollama/x/mlxrunner/mlx"
 	"github.com/yurivict/ollama/x/mlxrunner/model"
@@ -14,7 +15,7 @@ import (
 
 // Model is the interface that model implementations must satisfy.
 type Model interface {
-	Forward(inputs *mlx.Array, cache []cache.Cache) *mlx.Array
+	Forward(b *batch.Batch, cache []cache.Cache) *mlx.Array
 	Unembed(x *mlx.Array) *mlx.Array
 	NumLayers() int
 	Tokenizer() *tokenizer.Tokenizer
