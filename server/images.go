@@ -31,7 +31,7 @@ import (
 	"github.com/yurivict/ollama/thinking"
 	"github.com/yurivict/ollama/types/model"
 	"github.com/yurivict/ollama/version"
-	"github.com/yurivict/ollama/x/imagegen/transfer"
+	"github.com/yurivict/ollama/x/transfer"
 )
 
 // Blobs newer than this may belong to another process that has not written its
