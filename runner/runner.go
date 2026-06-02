@@ -1,8 +1,8 @@
 package runner
 
 import (
-	"github.com/yurivict/ollama/runner/llamarunner"
-	"github.com/yurivict/ollama/runner/ollamarunner"
+	"fmt"
+
 	"github.com/yurivict/ollama/x/imagegen"
 	"github.com/yurivict/ollama/x/mlxrunner"
 )
@@ -14,13 +14,11 @@ func Execute(args []string) error {
 
 	if len(args) > 0 {
 		switch args[0] {
-		case "--ollama-engine":
-			return ollamarunner.Execute(args[1:])
 		case "--imagegen-engine":
 			return imagegen.Execute(args[1:])
 		case "--mlx-engine":
 			return mlxrunner.Execute(args[1:])
 		}
 	}
-	return llamarunner.Execute(args)
+	return fmt.Errorf("unknown runner engine, expected --imagegen-engine or --mlx-engine")
 }

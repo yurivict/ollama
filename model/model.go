@@ -20,7 +20,6 @@ import (
 	"github.com/yurivict/ollama/kvcache"
 	"github.com/yurivict/ollama/logutil"
 	"github.com/yurivict/ollama/ml"
-	_ "github.com/yurivict/ollama/ml/backend"
 	"github.com/yurivict/ollama/ml/nn/pooling"
 	"github.com/yurivict/ollama/model/input"
 	"github.com/yurivict/ollama/tokenizer"
