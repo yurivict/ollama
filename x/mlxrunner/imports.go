@@ -3,7 +3,6 @@ package mlxrunner
 import (
 	_ "github.com/yurivict/ollama/x/models/cohere2_moe"
 	_ "github.com/yurivict/ollama/x/models/dflash"
-	_ "github.com/yurivict/ollama/x/models/gemma3"
 	_ "github.com/yurivict/ollama/x/models/gemma4"
 	_ "github.com/yurivict/ollama/x/models/glimmer"
 	_ "github.com/yurivict/ollama/x/models/glm4_moe_lite"
@@ -13,4 +12,5 @@ import (
 	_ "github.com/yurivict/ollama/x/models/qwen3"
 	_ "github.com/yurivict/ollama/x/models/qwen3_5"
 	_ "github.com/yurivict/ollama/x/models/qwen3_5_moe"
+	_ "github.com/yurivict/ollama/x/models/qwen4_exp"
 )
