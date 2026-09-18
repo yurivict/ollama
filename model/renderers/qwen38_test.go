@@ -10,7 +10,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/yurivict/ollama/api"
-	"github.com/yurivict/ollama/x/tokenizer"
+	"github.com/yurivict/ollama/mlxrunner/tokenizer"
 )
 
 const (
