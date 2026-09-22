@@ -4,9 +4,11 @@ import (
 	"fmt"
 
 	"github.com/yurivict/ollama/api"
+	"github.com/yurivict/ollama/types/model"
 )
 
 type Renderer interface {
+	Thinking() *model.Thinking
 	Render(messages []api.Message, tools []api.Tool, think *api.ThinkValue) (string, error)
 	LeadingBOS() string
 }

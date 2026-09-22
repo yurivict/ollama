@@ -6,6 +6,7 @@ import (
 	"strings"
 
 	"github.com/yurivict/ollama/api"
+	"github.com/yurivict/ollama/types/model"
 )
 
 type GlmOcrRenderer struct {
@@ -125,4 +126,8 @@ func renderGlmOcrToolArguments(args api.ToolCallFunctionArguments) string {
 	}
 
 	return sb.String()
+}
+
+func (r *GlmOcrRenderer) Thinking() *model.Thinking {
+	return &model.Thinking{Values: []any{false}, Default: false}
 }

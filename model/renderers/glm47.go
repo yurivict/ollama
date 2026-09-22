@@ -6,6 +6,7 @@ import (
 	"strings"
 
 	"github.com/yurivict/ollama/api"
+	"github.com/yurivict/ollama/types/model"
 )
 
 // GLM47Renderer renders messages for GLM-4.7 models.
@@ -171,4 +172,8 @@ func formatGLM47ToolJSON(raw []byte) string {
 	}
 
 	return sb.String()
+}
+
+func (r *GLM47Renderer) Thinking() *model.Thinking {
+	return &model.Thinking{Values: []any{false, true}, Default: true}
 }

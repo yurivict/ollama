@@ -7,6 +7,7 @@ import (
 	"strings"
 
 	"github.com/yurivict/ollama/api"
+	"github.com/yurivict/ollama/types/model"
 )
 
 const (
@@ -156,4 +157,8 @@ func (r *Olmo3Renderer) Render(messages []api.Message, tools []api.Tool, _ *api.
 	}
 
 	return sb.String(), nil
+}
+
+func (r *Olmo3Renderer) Thinking() *model.Thinking {
+	return &model.Thinking{Values: []any{false}, Default: false}
 }

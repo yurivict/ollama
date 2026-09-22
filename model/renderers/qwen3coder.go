@@ -7,6 +7,7 @@ import (
 	"strings"
 
 	"github.com/yurivict/ollama/api"
+	"github.com/yurivict/ollama/types/model"
 )
 
 var (
@@ -239,4 +240,8 @@ func formatToolDefinitionType(tp api.PropertyType) string {
 	}
 
 	return string(jsonBytes)
+}
+
+func (r *Qwen3CoderRenderer) Thinking() *model.Thinking {
+	return &model.Thinking{Values: []any{false}, Default: false}
 }
