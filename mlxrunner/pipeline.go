@@ -154,9 +154,8 @@ func (r *Runner) prefill(ctx context.Context, session *cacheSession, spec *specu
 	// Request periodic snapshots during prefill and near the end of the
 	// prompt so that long prompts can be partially restored and
 	// thinking/generation can be retried without full reprocessing.
-	const snapshotInterval = 8192
 	var snapshotOffsets []int
-	for offset := snapshotInterval; offset < len(inputs); offset += snapshotInterval {
+	for offset := prefillSnapshotInterval; offset < len(inputs); offset += prefillSnapshotInterval {
 		snapshotOffsets = append(snapshotOffsets, offset)
 	}
 
@@ -326,14 +325,6 @@ func (r *Runner) decode(ctx context.Context, request Request, session *cacheSess
 				resp, ok := detok.detokenize(res)
 				if !ok {
 					continue
-				}
-				// Two-pass structured output cancels the first pass before its final response.
-				if request.IncludeIntermediateMetrics {
-					resp.PromptEvalCount = len(request.Tokens)
-					resp.PromptEvalCachedCount = final.PromptEvalCachedCount
-					resp.PromptEvalDuration = promptEval
-					resp.EvalCount = generated
-					resp.EvalDuration = time.Since(now)
 				}
 				select {
 				case <-ctx.Done():
