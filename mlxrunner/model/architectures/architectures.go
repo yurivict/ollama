@@ -8,6 +8,7 @@ import (
 	_ "github.com/yurivict/ollama/mlxrunner/model/gemma4embedding"
 	_ "github.com/yurivict/ollama/mlxrunner/model/glimmer"
 	_ "github.com/yurivict/ollama/mlxrunner/model/glm4_moe_lite"
+	_ "github.com/yurivict/ollama/mlxrunner/model/kev"
 	_ "github.com/yurivict/ollama/mlxrunner/model/laguna"
 	_ "github.com/yurivict/ollama/mlxrunner/model/laya"
 	_ "github.com/yurivict/ollama/mlxrunner/model/llama"
