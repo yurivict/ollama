@@ -13,6 +13,7 @@ import (
 	_ "github.com/yurivict/ollama/mlxrunner/model/laya"
 	_ "github.com/yurivict/ollama/mlxrunner/model/llama"
 	_ "github.com/yurivict/ollama/mlxrunner/model/nemotron_h"
+	_ "github.com/yurivict/ollama/mlxrunner/model/pplxdecider"
 	_ "github.com/yurivict/ollama/mlxrunner/model/qwen3"
 	_ "github.com/yurivict/ollama/mlxrunner/model/qwen3_5"
 	_ "github.com/yurivict/ollama/mlxrunner/model/qwen3_5_moe"
