@@ -3,6 +3,7 @@ package architectures
 import (
 	_ "github.com/yurivict/ollama/mlxrunner/model/clef"
 	_ "github.com/yurivict/ollama/mlxrunner/model/cohere2_moe"
+	_ "github.com/yurivict/ollama/mlxrunner/model/decisionqwen"
 	_ "github.com/yurivict/ollama/mlxrunner/model/dflash"
 	_ "github.com/yurivict/ollama/mlxrunner/model/flint"
 	_ "github.com/yurivict/ollama/mlxrunner/model/gemma4"
@@ -14,7 +15,7 @@ import (
 	_ "github.com/yurivict/ollama/mlxrunner/model/laya"
 	_ "github.com/yurivict/ollama/mlxrunner/model/llama"
 	_ "github.com/yurivict/ollama/mlxrunner/model/nemotron_h"
-	_ "github.com/yurivict/ollama/mlxrunner/model/pplxdecider"
+	_ "github.com/yurivict/ollama/mlxrunner/model/phonon"
 	_ "github.com/yurivict/ollama/mlxrunner/model/qwen3"
 	_ "github.com/yurivict/ollama/mlxrunner/model/qwen3_5"
 	_ "github.com/yurivict/ollama/mlxrunner/model/qwen3_5_moe"
